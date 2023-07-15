@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+.container{
+   
+    min-height: 300px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    gap: 40px;
+}
+.box{
+    width: 300px;
+    background-color: rgb(244,245,247);
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.title + .material-icons{
+    display: none;
+}
+.title-container > .title:hover + .material-icons{
+display: block;
+}
+.title:hover{
+    background-color: #6c789179;
+ cursor: pointer;
+ border-radius: 5px;    
+}
+/* spaces in between 2 things arre also important in css */
+.box .title{         
+    font-size: 14px;
+    color: #5E6C84;
+    font-style:normal;
+    flex-grow: 1;
+    transition: 0.2s;
+}
+#create-issue{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #5E6C84;
+    font-size: 18px;
+    gap: 10px;
+    padding: 4px 0;
+    transition-duration: 0.4s;
+
+}
+#create-issue :hover{
+background-color: #6c789179;
+border-radius: 5px;
+}

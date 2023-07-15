@@ -1,0 +1,44 @@
+
+body {
+    
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#search_data{
+    height: 32px;
+    width: 30%;
+    border: none;
+}
+button{
+   height: 32px;
+   background-color: black;
+   color: white;
+}
+.inuptbuttons{
+    
+    color: #fff;
+    margin: 20px;
+}
+table{
+   
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#coin-table {
+    margin-inline: auto;
+  }
+  /* #coin-table img {
+    width: 24px;
+  } */
+
+td{
+    /* min-width: 80px; */
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
